@@ -1,0 +1,47 @@
+body{
+    background: linear-gradient(262deg, #129170, #20cb2a, #62cb20, #cb9d20, #20a1cb);
+background-size: 1000% 1000%;
+-webkit-animation: back 11s ease infinite;
+-moz-animation: back 11s ease infinite;
+-o-animation: back 11s ease infinite;
+animation: back 11s ease infinite;
+@-webkit-keyframes back {
+    0%{background-position:0% 88%}
+    50%{background-position:100% 13%}
+    100%{background-position:0% 88%}
+}
+@-moz-keyframes back {
+    0%{background-position:0% 88%}
+    50%{background-position:100% 13%}
+    100%{background-position:0% 88%}
+}
+@-o-keyframes back {
+    0%{background-position:0% 88%}
+    50%{background-position:100% 13%}
+    100%{background-position:0% 88%}
+}
+@keyframes back {
+    0%{background-position:0% 88%}
+    50%{background-position:100% 13%}
+    100%{background-position:0% 88%}
+}
+}
+.container_form{
+    
+    background-color: white blur(8px);
+    box-shadow:
+    0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+    0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12)
+  ;
+  ;
+    border: 1px solid black;
+    width: 25%;
+    padding: 50px;
+    border-radius: 5px;
+    margin: 10% auto;
+    
+}
